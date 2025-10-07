@@ -6,20 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "upgrade": "npx npm-check-updates -u && npm install"
   },
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.441",
-    "next": "14.2.33",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "15.5.4",
+    "react": "^19",
+    "react-dom": "^19"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.33",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
     "typescript": "^5"
   }
 }
